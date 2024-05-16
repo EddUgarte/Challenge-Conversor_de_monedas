@@ -29,7 +29,7 @@ public void buscaMoneda(String monedaBase, String monedaObjetivo, Double cantida
 
         String json = response.body();
 
-        System.out.println(json);
+        //System.out.println(json);
 
         Moneda miMoneda = gson.fromJson(json, Moneda.class);
         System.out.println(miMoneda);
